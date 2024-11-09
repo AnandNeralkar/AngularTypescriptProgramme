@@ -1,47 +1,41 @@
-class Arithmatic1{
-    //charateristics
-    no1:number
-    no2:number
+class Arithematic
+{
+    No1 : number
+    No2 : number
 
-   
-    constructor(x:number,y:number)
+    constructor(X : number, Y : number)
     {
-      
-        this.no1=x
-        this.no2=y
+        this.No1 = X
+        this.No2 = Y
     }
-    //Behaviour
-    Addition()
+
+    Addition() : number
     {
-        var ans :number=0
-        ans=this.no1+this.no2
-        return ans
+        var Ans : number = 0;
+        Ans = this.No1 + this.No2
+        return Ans
     }
-    Substraction()
+
+    Substraction() : number
     {
-        var ans :number=0
-        ans=this.no1-this.no2
-        return ans
+        var Ans : number = 0;
+        Ans = this.No1 - this.No2
+        return Ans
     }
-    
 }
 
-var obj =new Arithmatic1(11,10)
+var Result : number = 0
 
+var obj1 = new Arithematic(11,10)
+Result = obj1.Addition()
+console.log("Addition is : "+Result)
 
-Result=obj.Addition()
-console.log("Addition  " +Result)
+Result = obj1.Substraction()
+console.log("Substraction is : "+Result)
 
-Result=obj.Substraction()
-console.log("Substraction  " +Result)
+var obj2 = new Arithematic(51,42)
+Result = obj2.Addition()
+console.log("Addition is : "+Result)
 
-
-var obj3=new Arithmatic1(51,11)
-
-
-var Result:number=0
-Result=obj3.Addition()
-console.log("Addition  " +Result)
-
-Result=obj3.Substraction()
-console.log("Substraction  " +Result)
+Result = obj2.Substraction()
+console.log("Substraction is : "+Result)

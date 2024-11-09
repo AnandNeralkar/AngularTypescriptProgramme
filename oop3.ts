@@ -1,25 +1,25 @@
-class Demo2{
-    no:number
-    str:string
+class Demo
+{
+    No : number
+    str : string
 
-
-    constructor(x:number,name:string)
+    constructor(x : number, name : string)
     {
-        console.log("Inside the Parameterized constructor Of Demo Class")
-        this.no=x
-        this.str=name
+        console.log("Inside parametrised constructor")
+        this.No = x
+        this.str = name
     }
-    fun():void
+
+    fun() : void
     {
-        console.log("Inside Fun Of Demo Class")
-        console.log("Value of NO is   :" + this.no)
-        console.log("Value of str is   :" + this.str)
-  
+        console.log("Inside fun of Demo class")
+        console.log("Value of No is : "+this.No)
+        console.log("Value of str is : "+this.str)
     }
 }
 
-var obj1=new Demo2(11,"ANA")
- var obj2=new Demo2(12,"BNA")
+var obj1 = new Demo(11,"PPA")
+var obj2 = new Demo(21,"LB")
 
- obj1.fun()
- obj2.fun()
+obj1.fun()
+obj2.fun()

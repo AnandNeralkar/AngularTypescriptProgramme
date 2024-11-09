@@ -1,6 +1,6 @@
-var temp = function (no1, no2) {
-    return no1 + no2;
+var TEMP = function (No1, No2) {
+    return No1 + No2;
 };
-var ans;
-ans = temp(10, 20);
-console.log(ans);
+var Ans;
+Ans = TEMP(11, 10);
+console.log("Addition is : " + Ans);

@@ -1,19 +1,22 @@
-class Demo1{
-    no:number
-    str:string
+class Demo
+{
+    No : number
+    str : string
 
     constructor()
     {
-        console.log("Inside the constructor Of Demo Class")
+        console.log("Inside constructor of Demo class")
     }
-    fun():void
+
+    fun() : void
     {
-        console.log("Inside Fun Of Demo Class")
+        console.log("Inside fun of Demo class")
     }
 }
 
-var obj1=new Demo1()
- var obj2=new Demo1()
+var obj1 = new Demo()
 
- obj1.fun()
- obj2.fun()
+var obj2 = new Demo()
+
+obj1.fun()
+obj2.fun()

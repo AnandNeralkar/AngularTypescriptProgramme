@@ -1,15 +1,17 @@
-function Addition(no1, no2) {
-    var ans = no1 + no2;
-    return ans;
+function Addition(No1, No2) {
+    var Ans = 0;
+    Ans = No1 + No2;
+    return Ans;
 }
-function Subtraction(no1, no2) {
-    var ans = no1 - no2;
-    return ans;
+function Substraction(No1, No2) {
+    var Ans = 0;
+    Ans = No1 - No2;
+    return Ans;
 }
-var value1 = 11;
-var value2 = 10;
-var result = 0;
-result = Addition(value1, value2);
-console.log(result);
-result = Subtraction(value1, value2);
-console.log(result);
+var Value1 = 11;
+var Value2 = 10;
+var Result = 0;
+Result = Addition(Value1, Value2);
+console.log("Addition is : " + Result);
+Result = Substraction(Value1, Value2);
+console.log("Substraction is : " + Result);

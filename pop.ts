@@ -1,23 +1,25 @@
-function Addition(no1:number,no2:number):Number
+// We have to design an application which performs addition and substraction of 2 numbers
+
+function Addition(No1 : number, No2 : number) : number
 {
-    var ans=no1+no2
-    return ans
+    var Ans : number = 0
+    Ans = No1 + No2
+    return Ans
 }
 
-function Subtraction(no1:number,no2:number):Number
+function Substraction(No1 : number, No2 : number) : number
 {
-    var ans=no1-no2
-    return ans
+    var Ans : number = 0
+    Ans = No1 - No2
+    return Ans
 }
 
-var value1:number=11
-var value2:number=10
-var result:Number=0
+var Value1 : number = 11
+var Value2 : number = 10
+var Result : number = 0
 
-result=Addition(value1,value2)
+Result = Addition(Value1,Value2)
+console.log("Addition is : "+Result)
 
-console.log(result)
-
-result=Subtraction(value1,value2)
-
-console.log(result)
+Result = Substraction(Value1,Value2)
+console.log("Substraction is : "+Result)

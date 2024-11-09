@@ -1,9 +1,13 @@
-var temp=function (no1:number,no2:number):number
+// Unnamed function
+
+var TEMP = function(No1 : number, No2 : number) : number
 {
-    return no1+no2
+    return No1 + No2
 }
 
-var ans :number
-ans=temp(10,20)
+var Ans : number
+Ans = TEMP(11,10)
 
-console.log(ans)
+console.log("Addition is : "+Ans)
+
+console.log(typeof(TEMP))   // function

@@ -1,17 +1,17 @@
-var Demo2 = /** @class */ (function () {
-    function Demo2(x, name) {
-        console.log("Inside the Parameterized constructor Of Demo Class");
-        this.no = x;
+var Demo = /** @class */ (function () {
+    function Demo(x, name) {
+        console.log("Inside parametrised constructor");
+        this.No = x;
         this.str = name;
     }
-    Demo2.prototype.fun = function () {
-        console.log("Inside Fun Of Demo Class");
-        console.log("Value of NO is   :" + this.no);
-        console.log("Value of str is   :" + this.str);
+    Demo.prototype.fun = function () {
+        console.log("Inside fun of Demo class");
+        console.log("Value of No is : " + this.No);
+        console.log("Value of str is : " + this.str);
     };
-    return Demo2;
+    return Demo;
 }());
-var obj1 = new Demo2(11, "ANA");
-var obj2 = new Demo2(12, "BNA");
+var obj1 = new Demo(11, "PPA");
+var obj2 = new Demo(21, "LB");
 obj1.fun();
 obj2.fun();
